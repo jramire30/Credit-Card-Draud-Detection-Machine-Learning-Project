@@ -52,6 +52,8 @@ A model can appear highly accurate while still performing poorly at detecting fr
 ### Class Distribution
 <img width="104" height="50" alt="image" src="https://github.com/user-attachments/assets/153f8ed2-ca17-4074-aa36-b77324cd1423" />
 
+### Area Under the Curve Precision-Recall Curve (Fraud Detection) Method Performance
+<img width="578" height="487" alt="image" src="https://github.com/user-attachments/assets/71a9618a-5130-40f0-975c-d54a6b8ee44b" />
 
 
 ### Confusion Matrix
