@@ -7,7 +7,7 @@ The goal of this project was to detect fraudulent credit card transactions using
 This project was completed as part of a cross-collaborative sprint. It focused on applying machine learning methods to a real-world fraud detection problem where fraudulent transactions are rare but highly important to identify.
 
 ## Dataset
-The dataset contains credit card transaction records labeled as fraudulent or non-fraudulent. Because fraud cases are much less common than legitimate transactions, this project required careful attention to class imbalance and evaluation metrics.
+The dataset contains credit card transaction records labeled as fraudulent or non-fraudulent. Because fraud cases are much less common than legitimate transactions, this project required careful attention to class imbalance and evaluation metrics. Please note this Kaggle dataset has been PCA transformed.
 
 ## Methodology
 The workflow for this project included:
