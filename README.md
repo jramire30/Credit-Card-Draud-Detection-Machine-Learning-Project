@@ -50,10 +50,13 @@ A model can appear highly accurate while still performing poorly at detecting fr
 ## Visualizations
 
 ### Class Distribution
-![Class Distribution](docs/images/class_distribution.png)
+
+
 
 ### Confusion Matrix
-![Confusion Matrix](docs/images/confusion_matrix.png)
+<img width="441" height="195" alt="image" src="https://github.com/user-attachments/assets/615ae83d-f4f7-4570-9295-2b162c32e194" />
+<img width="441" height="195" alt="image" src="https://github.com/user-attachments/assets/2b9a3ce3-0bc0-4be1-b9fc-900ddebe6490" />
+
 
 ## Tech Stack
 - Python
