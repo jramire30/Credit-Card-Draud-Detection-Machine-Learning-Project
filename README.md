@@ -227,3 +227,6 @@ The combination of:
 - UX design (dashboard + interactions)
 
 creates a complete, production-ready fraud detection solution.
+
+[Julio_Ramirez_Sprint2_Presentation.pdf](https://github.com/user-attachments/files/26121472/Julio_Ramirez_Sprint2_Presentation.pdf)
+
