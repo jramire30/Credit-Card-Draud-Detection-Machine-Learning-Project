@@ -93,14 +93,121 @@ A model can appear highly accurate while still performing poorly at detecting fr
 - Matplotlib
 - Jupyter Notebook
 
-## Repo Structure
-```text
-credit-card-fraud-detection-random-forest/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── notebooks/
-│   └── credit_card_fraud_detection.ipynb
-├── docs/
-│   └── images/
-└── reports/
+## Product Integration: Algis (AI Fraud Detection System)
+
+This machine learning model was developed as part of a cross-functional project to power **Algis**, an AI-driven fraud detection platform designed for financial institutions.
+
+👉 View product design & demo:
+- Figma Design: https://www.figma.com/design/rQaRzhwcaQZEe7OrjNPPCb/Cross-Collaboration---AIgis
+- Prototype Demo: https://www.figma.com/proto/rQaRzhwcaQZEe7OrjNPPCb/Cross-Collaboration---AIgis
+
+---
+
+## What is Algis?
+
+Algis is an AI-powered fraud detection system that helps financial analysts:
+
+- Detect suspicious transactions in real time
+- Assign fraud probability scores
+- Prioritize high-risk transactions
+- Reduce financial loss while maintaining customer trust
+
+As shown in the project presentation :contentReference[oaicite:0]{index=0}, the system provides a centralized dashboard for monitoring fraud alerts and transaction activity.
+
+---
+
+## How the Model Fits into the Product
+
+The Random Forest model developed in this project serves as the **core decision engine** of Algis.
+
+### Model Output:
+- Fraud probability score (0–1)
+- Risk classification (Low / Medium / High)
+
+### Product Usage:
+- High-risk → Automatically flagged or blocked
+- Medium-risk → Sent for manual review
+- Low-risk → Approved automatically
+
+---
+
+## Product Features Powered by the Model
+
+### 1. Dashboard Overview
+Displays:
+- Total transactions
+- Fraud detected
+- Alert volume insights
+- Risk distribution (Low / Medium / High)
+
+(Shown in dashboard wireframe in presentation :contentReference[oaicite:1]{index=1})
+
+---
+
+### 2. Transaction Monitoring System
+- Real-time list of transactions
+- Each transaction assigned a risk level
+- Analysts can:
+  - Approve
+  - Block
+  - Escalate
+
+---
+
+### 3. Transaction Detail View
+Each transaction includes:
+- Fraud probability score
+- Transaction metadata (location, device, amount)
+- Status (Approved / Under Review / Blocked)
+
+---
+
+### 4. Decision Support
+The model enables:
+- Faster fraud detection
+- Reduced manual workload
+- Data-driven decision making
+
+---
+
+## Target User
+
+The primary user is a **Data Analyst or Fraud Analyst** working at a financial institution.
+
+As defined in the project persona:
+- Needs explainability and trust in AI decisions
+- Requires tools for monitoring and auditing fraud detection
+- Values efficiency and real-time insights
+
+---
+
+## Business Value
+
+By integrating machine learning into the Algis platform:
+
+- Reduces financial fraud losses
+- Speeds up fraud detection workflows
+- Improves precision in identifying fraud
+- Enhances analyst productivity
+
+---
+
+## Future Improvements
+
+- Real-time streaming model deployment
+- Explainable AI (feature importance per transaction)
+- Continuous model retraining
+- Integration with banking APIs
+
+---
+
+## Final Takeaway
+
+This project demonstrates not only the development of a machine learning model, but its integration into a real-world product.
+
+The combination of:
+- Data science (modeling)
+- Product thinking (user workflows)
+- UX design (dashboard + interactions)
+
+creates a complete, production-ready fraud detection solution.
