@@ -91,6 +91,16 @@ Risk Level	Threshold	Action
 - 🟡 Medium	0.30 – 0.90	Manual review
 - 🔴 High	> 0.90	Auto block
 
+<img width="948" height="694" alt="image" src="https://github.com/user-attachments/assets/379196b7-245d-467d-9894-f9ad0e6ea9a1" />
+
+To evaluate how the model performs in a real-world setting, I analyzed different probability thresholds using a confusion matrix.
+
+At a threshold of 0.30, the model captures over 83% of fraud cases while maintaining high precision and very low false positives, making it suitable for manual review.
+
+At a threshold of 0.90, the model achieves extremely high precision, meaning flagged transactions are almost certainly fraud, making it suitable for automatic blocking.
+
+This demonstrates how threshold selection directly impacts both detection performance and business operations.
+
 ## Tech Stack
 - Python
 - Pandas
