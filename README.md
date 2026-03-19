@@ -54,6 +54,8 @@ Because of class imbalance, evaluation focused on:
 
 Random Forest significantly outperformed Logistic Regression.
 
+Validity: I evaluated it on a separate test set and focused on performance there rather than relying on training performance.
+
 ## Key Insights
 - Fraud detection cannot be evaluated using accuracy alone
 - Class imbalance makes recall especially important
@@ -100,6 +102,7 @@ At a threshold of 0.30, the model captures over 83% of fraud cases while maintai
 At a threshold of 0.90, the model achieves extremely high precision, meaning flagged transactions are almost certainly fraud, making it suitable for automatic blocking.
 
 This demonstrates how threshold selection directly impacts both detection performance and business operations.
+
 
 ## Tech Stack
 - Python
